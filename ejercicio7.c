@@ -25,6 +25,5 @@ y hacer lo que ya está puesto
 
 int tmp = *pa; /
 *pa = *pb; 
-*pb = tmp; 
-
+*pb = tmp;
 */
