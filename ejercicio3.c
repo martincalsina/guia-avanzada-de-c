@@ -16,3 +16,4 @@ int main(){
 que *p tiene el valor almacenado en esa dirección, osea *p = 42.
 */
 //¿Qué valores creen que se van a imprimir por terminal?
+//ya lo dije arriba
