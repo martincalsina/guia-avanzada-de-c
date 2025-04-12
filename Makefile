@@ -1,7 +1,7 @@
 CC = gcc
 FLAGS = -Wall -Wextra -pedantic
 
-TARGET = ejercicio18
+TARGET = ejercicio19
 
 all: $(TARGET)
 
