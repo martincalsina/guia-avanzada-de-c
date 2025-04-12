@@ -21,10 +21,13 @@ void screen_draw_layout(void) {
 Analicen el código anterior y respondan las siguientes preguntas:
 ¿Qué hace ca(*p)[VIDEO COLS] = (ca(*)[VIDEO COLS])VIDEO;?
 
-//esta diciendole a p 'che, sos un puntero que apunta a VIDEO COLS punteros (o bueno, tiene
-el size para hacerlo) de tipo ca'
+//esta diciendole a p 'che, sos un puntero a arrays de VIDEO COLS elementos de tipo ca'
 
 a VIDEo le estoy forzando a pensarse como un puntero a cosas de tantas columnas
 
 ¿Por qué funciona esto: p[f][c].c = ’ ’;?
+
+p es un puntero a arreglos de VIDEO COLS elems, ¿A que arreglo voy?
+Me muevo, soy un puntero, *(p+f) y accedo al elem del VIDEO COL *(p+f)[c] para luego,
+como lo parsee como un ca, puedo acceder a su .c
 */
